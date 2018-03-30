@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Confab</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_name">Enter Your Name</string>
+
+    <string name="register_me">REGISTER ME</string>
+    <string name="already_have_an_account">Already Have An Account ?</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

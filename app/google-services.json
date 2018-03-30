@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "748931950358",
+    "firebase_url": "https://confab-772f3.firebaseio.com",
+    "project_id": "confab-772f3",
+    "storage_bucket": "confab-772f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748931950358:android:28990180675943bd",
+        "android_client_info": {
+          "package_name": "com.mahesh.hp.confab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748931950358-mgqk4lhfv3jp781123cq3lgfj8765mtg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahesh.hp.confab",
+            "certificate_hash": "ada1382cb6277aac9584e131314cee5e91e4baf3"
+          }
+        },
+        {
+          "client_id": "748931950358-kineeliql33v7cs1ujnaflseuqtoiis8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfEPpqAsJcTfu-Fl-x1-afYMB4B6JXXm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748931950358-kineeliql33v7cs1ujnaflseuqtoiis8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.mahesh.hp.confab.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:id="@+id/settings_Image"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/default_image" />
+
+    <TextView
+        android:id="@+id/settings_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Display Name"
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/settings_display_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_display_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Hi there , I am using Confab"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/settings_change_image"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_display_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Change Image"
+        android:textColor="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <Button
+        android:id="@+id/settings_change_status"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_change_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorAccent"
+        android:text="Change Status"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
